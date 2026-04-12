@@ -61,7 +61,7 @@ The workflow of DMFWI consists of the following main steps:
 </p>
 
 <p align="center">
-  <b>Figure 2.</b> Estimated Marmousi model after 20 iterations (a) without and (b) with diffusion shaping regularization. Estimated Marmousi model after 40 iterations (c) without and (d) with diffusion shaping regularization.
+  <b>Figure 2.</b> (a) Real Marmousi model, (b) Initial Marmousi model, (c) inversion result of classic FWI, and (d) inversion result of DMFWI. 
 </p>
 
 <p align="center">
@@ -69,15 +69,7 @@ The workflow of DMFWI consists of the following main steps:
 </p>
 
 <p align="center">
-  <b>Figure 3.</b> (a) Real Marmousi model, (b) Initial Marmousi model, (c) inversion result of classic FWI, and (d) inversion result of DMFWI. 
-</p>
-
-<p align="center">
-  <img src="figures/overevo.png" width="850"/>
-</p>
-
-<p align="center">
-  <b>Figure 4.</b> (a) Estimated Overthrust model after 20 iterations (a) without and (b) with diffusion shaping regularization. Estimated Overthrust model after 40 iterations (c) without and (d) with diffusion shaping regularization.
+  <b>Figure 3.</b> Estimated Marmousi model after 20 iterations (a) without and (b) with diffusion shaping regularization. Estimated Marmousi model after 40 iterations (c) without and (d) with diffusion shaping regularization.
 </p>
 
 <p align="center">
@@ -85,7 +77,15 @@ The workflow of DMFWI consists of the following main steps:
 </p>
 
 <p align="center">
-  <b>Figure 5.</b> (a) Real Marmousi model, (b) Initial Marmousi model, (c) inversion result of classic FWI, and (d) inversion result of DMFWI. 
+  <b>Figure 4.</b> (a) Real Marmousi model, (b) Initial Marmousi model, (c) inversion result of classic FWI, and (d) inversion result of DMFWI.
+</p>
+
+<p align="center">
+  <img src="figures/overevo.png" width="850"/>
+</p>
+
+<p align="center">
+  <b>Figure 5.</b> (a) Estimated Overthrust model after 20 iterations (a) without and (b) with diffusion shaping regularization. Estimated Overthrust model after 40 iterations (c) without and (d) with diffusion shaping regularization. 
 </p>
 
 ---
