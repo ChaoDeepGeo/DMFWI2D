@@ -88,6 +88,14 @@ The workflow of DMFWI consists of the following main steps:
   <b>Figure 5.</b> (a) Estimated Overthrust model after 20 iterations (a) without and (b) with diffusion shaping regularization. Estimated Overthrust model after 40 iterations (c) without and (d) with diffusion shaping regularization. 
 </p>
 
+<p align="center">
+  <img src="figures/geofwiflt.png" width="850"/>
+</p>
+
+<p align="center">
+  <b>Figure 6.</b> (a) Clean velocity model sample extracted from GeoFWI dataset. (b) Noisy velocity samples corresponding to Figure 6a. (c) Recovered results based on Figure 6b using a Gaussian filter. (d) Recovered results based on Figure 6b using diffusion shaping regularization. This example demonstrates that the diffusion-based regularization is inherently structure-oriented. 
+</p>
+
 ---
 
 ## Features
