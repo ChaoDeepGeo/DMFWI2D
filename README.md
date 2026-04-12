@@ -130,7 +130,8 @@ conda activate your_env_name
 AUTHOR = {Li, Chao and Chen, Yangkang},
 TITLE = {Learned diffusion model regularization for full waveform inversion},
 JOURNAL = {Geophysical prospecting},
-VOLUME = {submitted}
+YEAR    = {2026},
+NOTE    = {Submitted},
 }
 
 
