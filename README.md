@@ -25,19 +25,20 @@ The diffusion model (DM) is a class of deep generative frameworks that learn the
 ## Framework
 
 <p align="center">
-  <img src="figures/DLAWI.png" width="850"/>
+  <img src="figures/dmfwi.png" width="850"/>
 </p>
 
 <p align="center">
-  <b>Figure 1.</b> Overview of the proposed DL-AWI framework.
+  <b>Figure 2.</b> Overview of the proposed DMFWI framework.
 </p>
 
-The workflow of DL-AWI consists of the following main steps:
+The workflow of DMFWI consists of the following main steps:
 
 1. Generate synthetic seismic data from the current velocity model.
-2. Use a deep-learning-based matching module to generate extended synthetic data into a latent space for improved data fitting.
+2. Use a deep-learning-based matching module to generate extended synthetic data.
 3. Compute the misfit between extended synthetic data and observed data.
 4. Backpropagate the misfit to update the velocity model iteratively.
+5. Refine the updated model using the pretriained difusion model.
 
 ---
 
