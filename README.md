@@ -29,7 +29,7 @@ The diffusion model (DM) is a class of deep generative frameworks that learn the
 </p>
 
 <p align="center">
-  <b>Figure 2.</b> Overview of the proposed DMFWI framework.
+  <b>Figure 2.</b> (a) The forward and backward diffusion process. (b) Overview of the proposed DMFWI framework.
 </p>
 
 The workflow of DMFWI consists of the following main steps:
