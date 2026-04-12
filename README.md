@@ -16,16 +16,9 @@
 
 ---
 
-## Overview
-
-Full-waveform inversion (FWI) estimates subsurface properties by iteratively minimizing the mismatch between simulated and recorded seismic data, but it can break down when an inaccurate starting model leads to cycle skipping. We introduce deep-learning-backed adaptive waveform inversion (DL-AWI), which uses a deep twin network to precondition observed and synthetic waveforms and embed them in a shared latent space, where an improved prior pair can be identified for stable data comparison. DL-AWI then evaluates the two signals using a ratio-based objective referenced to a zero-lag spike, improving robustness during early iterations. By learning a more favorable representation for matching, DL-AWI effectively broadens the update basin, accelerates convergence, and reduces the risk of being trapped in local minima. Synthetic experiments and a field example demonstrate that DL-AWI produces reliable inversions and remains stable even with poor initial models.
-
-
----
-
 ## Abstract
 
-Full waveform inversion (FWI) iteratively improves the accuracy of the model by minimizing the discrepancies between the predicted and the observed data. However, FWI commonly suffers from cycle skipping when the initial model is poor, leading to an erroneous result. To mitigate this problem, we propose deep-learning-backed adaptive waveform inversion (DL-AWI), which introduces a deep twin neural network to precondition the waveforms and compare the ratio of two signals with a zero-lag spike, thereby enhancing the stability of the inversion process. DL-AWI can project the synthetic and observed signals into an extended latent space via several convolutional neural networks (CNNs) with shared weights, which can accelerate the data matching. Compared with classic FWI methods, the proposed DL-AWI provides a wider space for model updates, significantly decreasing the risk of being trapped in local minima. We use synthetic and field examples to validate its efficiency in subsurface model inversion, and the results show that DL-AWI is robust even when a poor initial model is provided.
+The diffusion model (DM) is a class of deep generative frameworks that learn the distribution of complex data by iteratively denoising from stochastic perturbations. Here, we introduce a DM-based regularization strategy for full-waveform inversion (FWI), named DM-FWI, which leverages knowledge embedded in an extensive collection of geologic velocity models to train a generalizable model for applying geological priors in a seamless manner. DM's ability to capture high-dimensional structures and generate geologically plausible samples makes it a powerful prior for inverse problems. Within FWI, the DM serves as a structure-adapted smoother, guiding updates toward solutions consistent with realistic geologic patterns. This implicit regularization improves the geological significance of recovered velocity models while alleviating common cycle-skipping issues. Synthetic and field data experiments demonstrate that DM-FWI stabilizes inversion, enhances convergence, and yields subsurface models that are both quantitatively accurate and geologically interpretable.
 
 ---
 
