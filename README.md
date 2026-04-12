@@ -46,8 +46,7 @@ The workflow of DMFWI consists of the following main steps:
 
 - The Marmousi folder contains necessary code to reproduce the Marmousi result (main_dlawi.ipynb is ready to visialize the prilimary results).
 - The Overthrus folder contains necessary code to reproduce the Overthrust result (main_dlawi.ipynb is ready to visialize the prilimary results).
-- For classic AWI, please refer to Warner and Guasch, 2016, Adaptive waveform inversion: Theory, Geophysics, 81 (6): R429–R445.
-- For SiameseFWI, please refer to Saad et al., 2024, SiameseFWI: A deep learning network for enhanced full waveform inversion. Journal of Geophysical Research: Machine Learning and Computation, 1, e2024JH000227.
+- For GeoFWI dataset, please refer to Li et. al, 2026, GeoFWI: A large velocity model data set for benchmarking full waveform inversion using deep learning. Journal of Geophysical Research: Machine Learning and Computation, 3, e2025JH001037.
 
 
 ---
@@ -62,7 +61,7 @@ The workflow of DMFWI consists of the following main steps:
 </p>
 
 <p align="center">
-  <b>Figure 2.</b> Inverted Marmousi result of (a) Classic FWI, (b) Classic AWI, (c) SiameseFWI, and (d) DL-AWI. 
+  <b>Figure 3.</b> (a) Real Marmousi model, (b) Initial Marmousi model, (c) inversion result of classic FWI, and (d) inversion result of DMFWI. 
 </p>
 
 <p align="center">
@@ -70,7 +69,7 @@ The workflow of DMFWI consists of the following main steps:
 </p>
 
 <p align="center">
-  <b>Figure 3.</b> Inverted Overthrust result of (a) Classic FWI, (b) Classic AWI, (c) SiameseFWI, and (d) DL-AWI. 
+  <b>Figure 5.</b> (a) Real Marmousi model, (b) Initial Marmousi model, (c) inversion result of classic FWI, and (d) inversion result of DMFWI. 
 </p>
 
 ---
