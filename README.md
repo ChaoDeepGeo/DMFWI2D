@@ -44,11 +44,10 @@ The workflow of DMFWI consists of the following main steps:
 
 ## Documents demonstration
 
+- Before running the notebook, a trained diffusion model is required. It can be accessed at: https://utexas.box.com/s/gasvh0rmojnrx7ooclbbqfgkaayrrfaw. After downloading, place the diffusion_model folder in the same directory as the Marmousi and Overthrust folders.
 - The Marmousi folder contains necessary code to reproduce the Marmousi result (main_dlawi.ipynb is ready to visialize the prilimary results).
 - The Overthrus folder contains necessary code to reproduce the Overthrust result (main_dlawi.ipynb is ready to visialize the prilimary results).
 - For GeoFWI dataset, please refer to Li et. al, 2026, GeoFWI: A large velocity model data set for benchmarking full waveform inversion using deep learning. Journal of Geophysical Research: Machine Learning and Computation, 3, e2025JH001037.
-
-
 ---
 
 
