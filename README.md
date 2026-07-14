@@ -130,7 +130,9 @@ AUTHOR = {Li, Chao and Chen, Yangkang},
 TITLE = {Learned diffusion model regularization for full waveform inversion},
 JOURNAL = {Geophysical prospecting},
 YEAR    = {2026},
-NOTE    = {Submitted},
+VOLUME = {74},
+NUMBER = {4},
+EID = {e70188}
 }
 
 
