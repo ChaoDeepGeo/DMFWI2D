@@ -120,7 +120,7 @@ conda activate your_env_name
 
 ## Reference 
 
-> Li et al., Learned diffusion model regularization for full waveform inversion.
+> Li et al., 2026, Learned diffusion model regularization for full waveform inversion, Geophysical prospecting 74(4),e70188.
 
 ### BibTex
 
